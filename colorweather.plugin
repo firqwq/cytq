@@ -14,7 +14,7 @@ hostname=*.caiyunapp.*,*cyapi*
 
 [Script]
 
-http-response ^http[s]?:\/\/biz\.(caiyunapp|cyapi)\.(com|cn)\/v2\/user.*$ requires-body=1,script-path=https://raw.githubusercontent.com/WeiRen0/Scripts/main/cytq.js
+http-response ^http[s]?:\/\/biz\.(caiyunapp|cyapi)\.(com|cn)\/v2\/user.*$ requires-body=1,script-path=https://raw.githubusercontent.com/firqwq/cytq/main/cytq.js
 
 [URL Rewrite]
 
